@@ -15,11 +15,11 @@ const pushNotification = (posTop, posRight, title, description, type) => {
   titleEl.textContent = title;
   div.appendChild(titleEl);
 
-  const descripEl = document.createElement('p');
+  const descEl = document.createElement('p');
 
-  descripEl.classList.add('description');
-  descripEl.textContent = description;
-  div.appendChild(descripEl);
+  descEl.classList.add('description');
+  descEl.textContent = description;
+  div.appendChild(descEl);
 
   setTimeout(() => {
     div.style.display = 'none';
